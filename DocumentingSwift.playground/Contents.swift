@@ -54,19 +54,19 @@ func doubleValue(value: Int) -> Int {
  */
 enum AlignmentOptions {
     /// It aligns the text on the Left side.
-    case Left
+    case left
     
     /// It aligns the text on the Center.
-    case Center
+    case center
     
     /// It aligns the text on the Right side.
-    case Right
+    case right
 }
 
 
 func doSomething() {
     let alignmentOption: AlignmentOptions!
-    alignmentOption = AlignmentOptions.Left
+    alignmentOption = AlignmentOptions.left
 }
 
 
